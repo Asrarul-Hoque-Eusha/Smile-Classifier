@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+fastapi
+uvicorn
+pymysql
+mysql
+typing
+sqlalchemy

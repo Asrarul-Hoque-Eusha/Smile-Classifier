@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Classifier (Smile/Non-Smile)</title>
+</head>
+<body style="background-color: beige;">
+    <div style="width: device-width; height: 100px; background-color: lightblue;">
+        <h1 style="justify-content: center;">Image Classifier</h1>
+    </div>
+    <div style="width: device-width; height: 400px; background-color: rgb(235, 235, 246);">
+        <form action="/classify" method="post" enctype="multipart/form-data">
+            <label for="image">Select an image:</label>
+            <input type="file" id="image" name="image" accept="image/png, image/jpeg, image/jpg">
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+    <div>
+        <p>{{message}}</p>
+    </div>
+</body>
+</html>

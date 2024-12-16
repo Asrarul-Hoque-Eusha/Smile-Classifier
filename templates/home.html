@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Classifier</title>
+</head>
+<body>
+    <nav style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db;
+    height: 60px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    gap: 60px;
+">
+    <a href="/" style="
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        font-family: Arial, sans-serif;
+    " onmouseover="this.style.backgroundColor='rgba(255,255,255,0.2)'" 
+       onmouseout="this.style.backgroundColor='transparent'">
+        Home
+    </a>
+    <a href="/classify" style="
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        font-family: Arial, sans-serif;
+    " onmouseover="this.style.backgroundColor='rgba(255,255,255,0.2)'" 
+       onmouseout="this.style.backgroundColor='transparent'">
+        Classify Image
+    </a>
+    <a href="/history" style="
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        font-family: Arial, sans-serif;
+    " onmouseover="this.style.backgroundColor='rgba(255,255,255,0.2)'" 
+       onmouseout="this.style.backgroundColor='transparent'">
+        Classification History
+    </a>
+</nav>
+<div style="height: 100px;"></div>
+    <div class="container">
+        <h1 style="text-align: center;">Smile Classifier Website</h1>
+        <p style="text-align: justify; font-size: large;">This website intended to classify an image to 
+             smiling or non-smiling. Here you can upload an image and get the result of whether the face 
+             is smiling or not. Our Smile Classifier model is built to identify
+             facial expressions and categorize images as either "Smiling" or "Not Smiling." It works with
+             a labeled dataset of face images, where the input data is prepared by resizing the images to 
+             64x64 pixels and converting the labels into numbers for processing. Using Python tools like 
+             OpenCV and scikit-learn, we developed and trained the model to perform with high accuracy
+             in detecting smiles. This classifier highlights its usefulness in tasks 
+             like emotion recognition and facial analysis.</p>
+    </div>
+</body>
+</html>
